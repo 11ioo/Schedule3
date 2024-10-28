@@ -17,5 +17,4 @@ public class ScheduleService {
         return scheduleRepository.findAllByOrderByUpdatedAtDesc(PageRequest.of(page, size));
     }
 
-    // Other CRUD operations
 }
